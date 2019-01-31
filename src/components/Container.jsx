@@ -2,8 +2,9 @@ import React from 'react';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
 import FeatureBlock from './FeatureBlock.jsx';
+import 'container.css';
 
-const LandingContainer = () => (
+const Container = () => (
     // TODO Capstone Requirements
     // Clear value proposition for the people the project is targeting
     // Well-written content articulating key features
@@ -16,4 +17,4 @@ const LandingContainer = () => (
     </React.Fragment>
 );
 
-export default LandingContainer;
+export default Container;
