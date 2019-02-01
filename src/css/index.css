@@ -1,0 +1,23 @@
+#central {
+    text-align: center;
+    background-color: #FCF8F3;
+}
+
+.card {
+    width: 45%;
+    display: inline-block;
+    text-align: center;
+    background-color: #A346A3;
+}
+
+#footer {
+    background-color: #345226;
+    color: #FCF8F3;
+    text-align: center;
+    height: 12d0px;
+    opacity: 30%;
+}
+
+html {
+    background-color: #FCF8F3;
+}
