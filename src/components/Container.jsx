@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
 import FeatureBlock from './FeatureBlock.jsx';
+import Profiles from './Profiles.jsx';
 
 const LandingContainer = () => (
     // TODO Capstone Requirements
@@ -13,6 +14,7 @@ const LandingContainer = () => (
         <Nav/>
         <FeatureBlock/>
         <Footer/>
+        <Profiles />
     </React.Fragment>
 );
 
