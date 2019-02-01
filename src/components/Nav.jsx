@@ -1,11 +1,20 @@
 import React from 'react';
-import Navbar from 'react-bootstrap';
 
 const Nav = () => (
     <React.Fragment>
-        <Navbar bg="dark" variant="dark">
-            <Navbar.Brand href="#home">Turnip</Navbar.Brand>
-        </Navbar>
+        <div id="nav" 
+            style={{ 
+                color: 'white', 
+                fontFamily: 'Kanit, sans-serif', 
+                backgroundColor: '#345226',
+                height: '50px'
+            }}>
+            <img src="/imgs/turnip.svg"
+                alt="Turnip Logo"
+                height="30px"
+            />
+            <a href="https://playturnip.itch.io/"><img src="/imgs/itch.svg" alt="Our Itch.io Site" height="30px" style={{ marginLeft: "6px" }}/></a>
+        </div>
     </React.Fragment>
 );
 

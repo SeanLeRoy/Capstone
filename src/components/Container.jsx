@@ -1,8 +1,9 @@
 import React from 'react';
+import '../css/container.css';
 import Nav from './Nav.jsx';
 import Footer from './Footer.jsx';
+import CentralBlock from './CentralBlock.jsx';
 import FeatureBlock from './FeatureBlock.jsx';
-import 'container.css';
 
 const Container = () => (
     // TODO Capstone Requirements
@@ -12,6 +13,7 @@ const Container = () => (
     // Social sharing features
     <React.Fragment>
         <Nav/>
+        <CentralBlock/>
         <FeatureBlock/>
         <Footer/>
     </React.Fragment>
