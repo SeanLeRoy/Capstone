@@ -1,23 +1,68 @@
-#central {
-    text-align: center;
+/* CSS for all elements */
+#root {
     background-color: #FCF8F3;
 }
 
-.card {
-    width: 45%;
-    display: inline-block;
+/* Central Block  */
+#central {
+    text-align: center;
+}
+
+#profiles {
+    margin-top: 20px;
+}
+
+/* Footer  */
+#footer {
+    opacity: 0.6;
+    height: 100px;
+    margin-top: 20px;
+    color: #FCF8F3;
     text-align: center;
     background-color: #A346A3;
 }
 
-#footer {
-    background-color: #345226;
-    color: #FCF8F3;
-    text-align: center;
-    height: 12d0px;
-    opacity: 30%;
+/* Icons in Footer */
+#footer > a > img {
+    margin-top: 10px;
 }
 
-html {
-    background-color: #FCF8F3;
+/* Nav Bar */
+#nav {
+    opacity: 0.6;
+    height: 50px;
+    color: #FCF8F3;
+    background-color: #A346A3;
+    font-family: Kanit, sans-serif;
+}
+
+/* Icons on Nav Bar */
+#nav > img {
+    height: 80%;
+    margin: 4px;
+}
+
+/* Nav Icons that are social */
+.social {
+    float: right;
+}
+
+/* All Card Elements */
+.card {
+    margin: 10px;
+    background-color: #C1E29F;
+}
+
+/* Titles */
+h1, h2 {
+    text-align: center;
+    font-family: Kanit, sans-serif;
+}
+
+h1 {
+    font-size: 175px;
+}
+
+h2 {
+    font-size: 100px;
 }
