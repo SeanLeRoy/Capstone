@@ -25,7 +25,7 @@ const FeatureBlock = () => (
                     <Card.Img />
                     <Card.Body>
                         <Card.Title>Contact Us!</Card.Title >
-                        <Card.Text>With the game still in development, we want to hear your suggestions!  If you have experience developing in various game engines, with interactive storytelling, or game art design, hit us up on <a href="https://twitter.com/PlayTurnip" target="_blank">Twitter</a> or shoot us an <a href = "mailto: swartell@washington.edu">email</a>!</Card.Text>
+                        <Card.Text>With the game still in development, we want to hear your suggestions!  If you have experience developing in various game engines, with interactive storytelling, or game art design, hit us up on <a href="https://twitter.com/PlayTurnip" target="_blank" rel="noopener noreferrer">Twitter</a> or shoot us an <a href = "mailto: swartell@washington.edu">email</a>!</Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
