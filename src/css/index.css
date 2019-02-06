@@ -37,7 +37,7 @@
 }
 
 /* Icons on Nav Bar */
-#nav > img {
+#nav > a > img {
     height: 80%;
     margin: 4px;
 }
