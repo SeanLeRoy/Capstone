@@ -14,18 +14,22 @@ const FeatureBlock = () => (
                 </Card>
             </Col>
             <Col xs="6">
-                {/* <Card>
-                    <Card.Img />
-                    <Card.Body>
-                        <Card.Title>What can I expect?</Card.Title >
-                        <Card.Text>You can expect a fun game narrating the story of our hero and their service animal Turnip.</Card.Text>
-                    </Card.Body>
-                </Card> */}
                 <Card>
                     <Card.Img />
                     <Card.Body>
                         <Card.Title>Contact Us!</Card.Title >
                         <Card.Text>With the game still in development, we want to hear your suggestions!  If you have experience developing in various game engines, with interactive storytelling, or game art design, hit us up on <a href="https://twitter.com/PlayTurnip" target="_blank" rel="noopener noreferrer">Twitter</a> or shoot us an <a href = "mailto: swartell@washington.edu">email</a>!</Card.Text>
+                    </Card.Body>
+                </Card>
+            </Col>
+        </Row>
+        <Row>
+            <Col xs="12">
+                <Card>
+                    <Card.Img />
+                    <Card.Body>
+                        <Card.Title>What can I expect?</Card.Title >
+                        <Card.Text>You can expect a fun game narrating the story of our hero and their service animal Turnip. Feel free to contact us for feature requests/ideas.</Card.Text>
                     </Card.Body>
                 </Card>
             </Col>
